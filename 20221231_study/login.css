@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 220px;
+    border: 3px solid lavender;
+    background-color: rgba(230, 230, 250, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-style: normal;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: #333;
+}
+
+#id {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#id span {
+    color: #333;
+    font-weight: bold;
+    width: 25%;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+#id input {
+    width: 75%;
+    height: 30px;
+    font-size: 14px;
+    padding: 2px;
+}
+
+#password {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#password span {
+    color: #333;
+    font-weight: bold;
+    width: 25%;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#password input {
+    width: 72%;
+    height: 30px;
+    font-size: 14px;
+    padding: 2px;
+}
+
+#loginBtn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#loginBtn input {
+    height: 35px;
+    width: 100px;
+    border: 2px solid lightcoral;
+    border-radius: 8px;
+    background-color: rgba(240, 128, 128, 0.4);
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#loginBtn input:hover {
+    background-color: rgba(240, 128, 128, 0.7);
+}
+
+#loginBtn input:active {
+    background-color: rgba(240, 128, 128, 1);
+}
