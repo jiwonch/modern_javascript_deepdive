@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prototype_ex</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: aliceblue;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+        }
+
+        #box1, #box2, #box3 {
+            width: 300px;
+            height: 450px;
+            border: 2px solid dodgerblue;
+            border-radius: 40px;
+        }
+
+        #box1 {
+            background-color: rgba(255, 160, 122, 0.5);
+        }
+
+        #box2 {
+            background-color: rgba(173, 216, 230, 0.5);
+        }
+
+        #box3 {
+            background-color: rgba(144, 238, 144, 0.5);
+        }
+
+        h1 {
+            color: red;
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        span {
+            color: #333;
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <h1>스타캐릭터</h1>
+        <span>이름:</span>
+        <span class="name1"></span>
+        <span>,</span>
+        <br>
+        <span>공경력:</span>
+        <span class="attack1"></span>
+        <span>,</span>
+        <br>
+        <span>체력:</span>
+        <span class="exp1"></span>
+        <span>,</span>
+        <br><br>
+        <span class="type1"></span>
+        <span class="att1"></span>
+        <span class="dem1"></span>
+    </div>
+    <div id="box2">
+        <h1>스타캐릭터</h1>
+        <span>이름:</span>
+        <span class="name1"></span>
+        <span>,</span>
+        <br>
+        <span>공경력:</span>
+        <span class="attack1"></span>
+        <span>,</span>
+        <br>
+        <span>체력:</span>
+        <span class="exp1"></span>
+        <span>,</span>
+        <br><br>
+        <span class="type1"></span>
+        <span class="att1"></span>
+        <span class="dem1"></span>
+    </div>
+    <div id="box3">
+        <h1>스타캐릭터</h1>
+        <span>이름:</span>
+        <span class="name1"></span>
+        <span>,</span>
+        <br>
+        <span>공경력:</span>
+        <span class="attack1"></span>
+        <span>,</span>
+        <br>
+        <span>체력:</span>
+        <span class="exp1"></span>
+        <span>,</span>
+        <br><br>
+        <span class="type1"></span>
+        <span class="att1"></span>
+        <span class="dem1"></span>
+    </div>
+    <script src="./proto_a.js"></script>
+</body>
+</html>

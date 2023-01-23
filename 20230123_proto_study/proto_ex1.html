@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Apple(grade, count, price) {
+            this.grade=grade;
+            this.count = Number(count);
+            this.price = Number(price);
+            this.fullprice = function() {
+                document.write("품질은"+this.grade+" 갯수는"+this.count+" 총가격은 "+this.count*this.price+"입니다.");
+            }
+        }
+        var commonprice = new Apple("A", 178,3200);
+        commonprice.fullprice();
+    </script>
+</body>
+</html>
